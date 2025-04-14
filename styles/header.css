@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'LeagueMono';
+    src: url(/assets/fonts/LeagueMono-VF.ttf);
+}
+
+header {
+    font-family: 'LeagueMono';
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: var(--primary-color);
+    color: var(--text-color);
+
+    padding: 15px;
+
+    border-bottom: var(--highlight-color) solid 10px;
+}
+
+#header_itens > a {
+    color: var(--text-color);
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+#header_itens > a:hover, #pagina_atual {
+    color: var(--tertiary-color);
+    
+    border-bottom: var(--highlight-color) solid 5px;
+}

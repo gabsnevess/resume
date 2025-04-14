@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'LeagueMono';
+    src: url(/assets/fonts/LeagueMono-VF.ttf);
+}
+
+:root {
+    --primary-color:   #1D3557;
+    --secondary-color: #457B9D;
+    --tertiary-color:  #A8DADC;
+    --highlight-color: #E63946;
+
+    --text-color: white;
+}
+
+body {
+    font-family: 'LeagueMono';
+    margin: 0;
+}
+
+#secao_inicial {
+    margin:  20px;
+    padding: 20px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: var(--secondary-color);
+}
+
+#secao_inicial > h1 {
+    color: #F1FAEE;
+}
